@@ -36,7 +36,7 @@ The following steps explain the procedure used to perform signal denoising using
 
 6. **Performance Evaluation:** The denoising performance is evaluated using AMSE under multiple noise levels (SNR = 3, 5, and 7) and compared across classifiers(**Final_code.m**).
 
-## Methods
+## Outcomes
 
 1. The proposed **Machine Learning Wavelet Shrinkage (MLWS)** framework demonstrates improved denoising accuracy across multiple signal types and noise levels.
 
