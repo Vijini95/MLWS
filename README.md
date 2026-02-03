@@ -35,3 +35,9 @@ The following steps explain the procedure used to perform signal denoising using
 5. **Signal Reconstruction:** Using the selected coefficients, the signal is reconstructed via the Inverse Discrete Wavelet Transform (**idwtr.m**).
 
 6. **Performance Evaluation:** The denoising performance is evaluated using AMSE under multiple noise levels (SNR = 3, 5, and 7) and compared across classifiers(**Final_code.m**).
+
+## Methods
+
+1. The proposed **Machine Learning Wavelet Shrinkage (MLWS)** framework demonstrates improved denoising accuracy across multiple signal types and noise levels.
+
+2. Compared to traditional shrinkage techniques, MLWS achieves lower Average Mean Squared Error (AMSE) through adaptive classifier-based coefficient selection.
