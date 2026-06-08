@@ -2,7 +2,7 @@
 # Machine Learning Integrated in Wavelet Shrinkage (MLShrink)
 
 ## Overview
-The goal of this project is to develop a new signal denoising framework called Machine Learning Integrated Wavelet Shrinkage (MLWS). This method combines wavelet thresholding with machine learning to enhance noise suppression and signal reconstruction. Unlike traditional single-threshold shrinkage techniques, MLWS introduces two adaptive thresholds to classify wavelet coefficients into signal, noise, and uncertain regions. Machine learning classifiers are then applied to decide the inclusion of uncertain coefficients based on their magnitudes and neighboring structures. Extensive simulations across standard benchmark signals demonstrate that MLWS achieves competitive or superior performance compared to existing shrinkage methods.
+The goal of this project is to develop a new signal denoising framework called Machine Learning Integrated Wavelet Shrinkage (MLShrink). This method combines wavelet thresholding with machine learning to enhance noise suppression and signal reconstruction. Unlike traditional single-threshold shrinkage techniques, MLShrink introduces two adaptive thresholds to classify wavelet coefficients into signal, noise, and uncertain regions. Machine learning classifiers are then applied to decide the inclusion of uncertain coefficients based on their magnitudes and neighboring structures. Extensive simulations across standard benchmark signals demonstrate that MLShrink achieves competitive or superior performance compared to existing shrinkage methods.
 
 ## Methods
 The proposed method combines classical wavelet shrinkage with machine learning to enhance signal denoising performance. The approach introduces two adaptive thresholds to classify wavelet coefficients and employs machine learning models to refine uncertain regions. The following components are used in this method:
@@ -22,7 +22,7 @@ The proposed method combines classical wavelet shrinkage with machine learning t
 5. **Signal Reconstruction:** The denoised signal is reconstructed using the inverse wavelet transform (IDWT), ensuring both smoothness and edge preservation.
 
 ## MATLAB Implementation
-The following steps explain the procedure used to perform signal denoising using the proposed Machine Learning Wavelet Shrinkage (MLWS) framework.
+The following steps explain the procedure used to perform signal denoising using the proposed Machine Learning Wavelet Shrinkage (MLShrink) framework.
 
 1. **Load Data:** The test signals (Blocks, Bumps, HeaviSine, and Doppler) are generated or loaded from existing signal libraries in **WaveLab850**.
 
@@ -38,6 +38,6 @@ The following steps explain the procedure used to perform signal denoising using
 
 ## Outcomes
 
-1. The proposed **Machine Learning Wavelet Shrinkage (MLWS)** framework demonstrates improved denoising accuracy across multiple signal types and noise levels.
+1. The proposed **Machine Learning Wavelet Shrinkage (MLShrink)** framework demonstrates improved denoising accuracy across multiple signal types and noise levels.
 
-2. Compared to traditional shrinkage techniques, MLWS achieves lower Average Mean Squared Error (AMSE) through adaptive classifier-based coefficient selection.
+2. Compared to traditional shrinkage techniques, MLShrink achieves lower Average Mean Squared Error (AMSE) through adaptive classifier-based coefficient selection.
