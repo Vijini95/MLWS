@@ -1,5 +1,5 @@
 
-# Machine Learning Integrated in Wavelet Shrinkage (MLWS)
+# Machine Learning Integrated in Wavelet Shrinkage (MLShrink)
 
 ## Overview
 The goal of this project is to develop a new signal denoising framework called Machine Learning Integrated Wavelet Shrinkage (MLWS). This method combines wavelet thresholding with machine learning to enhance noise suppression and signal reconstruction. Unlike traditional single-threshold shrinkage techniques, MLWS introduces two adaptive thresholds to classify wavelet coefficients into signal, noise, and uncertain regions. Machine learning classifiers are then applied to decide the inclusion of uncertain coefficients based on their magnitudes and neighboring structures. Extensive simulations across standard benchmark signals demonstrate that MLWS achieves competitive or superior performance compared to existing shrinkage methods.
